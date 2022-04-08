@@ -1,0 +1,16 @@
+C:\Users\henri\Desktop\Lista de Exercícios C#\Lista 1\Lista_de_Exercícios_1\bin\Debug\Lista_de_Exercícios_1.exe.config
+C:\Users\henri\Desktop\Lista de Exercícios C#\Lista 1\Lista_de_Exercícios_1\bin\Debug\Lista_de_Exercícios_1.exe
+C:\Users\henri\Desktop\Lista de Exercícios C#\Lista 1\Lista_de_Exercícios_1\bin\Debug\Lista_de_Exercícios_1.pdb
+C:\Users\henri\Desktop\Lista de Exercícios C#\Lista 1\Lista_de_Exercícios_1\obj\Debug\Lista_de_Exercícios_1.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\Lista de Exercícios C#\Lista 1\Lista_de_Exercícios_1\obj\Debug\Lista_de_Exercícios_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\henri\Desktop\Lista de Exercícios C#\Lista 1\Lista_de_Exercícios_1\obj\Debug\Lista_de_Exercícios_1.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\Lista de Exercícios C#\Lista 1\Lista_de_Exercícios_1\obj\Debug\Lista_de_Exercícios_1.exe
+C:\Users\henri\Desktop\Lista de Exercícios C#\Lista 1\Lista_de_Exercícios_1\obj\Debug\Lista_de_Exercícios_1.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\Lista_de_Exercícios_1\obj\Debug\Lista_de_Exercícios_1.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\Lista_de_Exercícios_1\obj\Debug\Lista_de_Exercícios_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\Lista_de_Exercícios_1\obj\Debug\Lista_de_Exercícios_1.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\Lista_de_Exercícios_1\obj\Debug\Lista_de_Exercícios_1.exe
+C:\Users\henri\Desktop\list_of_exercises_OOP\Lista_de_Exercícios_1\obj\Debug\Lista_de_Exercícios_1.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\Lista_de_Exercícios_1\bin\Debug\Lista_de_Exercícios_1.exe.config
+C:\Users\henri\Desktop\list_of_exercises_OOP\Lista_de_Exercícios_1\bin\Debug\Lista_de_Exercícios_1.exe
+C:\Users\henri\Desktop\list_of_exercises_OOP\Lista_de_Exercícios_1\bin\Debug\Lista_de_Exercícios_1.pdb
