@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise_3
+namespace Exercise_4
 {
     public class Calculos_Integer_Positiv
     {

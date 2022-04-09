@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise_3
+namespace Exercise_4
 {
     internal class Program
     {
@@ -16,32 +16,38 @@ namespace Exercise_3
                 Console.WriteLine("Write the number for the math operations: ");
                 double number = Convert.ToDouble(Console.ReadLine());
 
-                if (number == (int)number && number > 0)
+                if (number == (int)number)
                 {
-                    var random = new Random();
-                    int index = random.Next(1, 10);
-                    
+                    Console.WriteLine("Index:");
+                    Console.WriteLine("1 - Is Integer");
+                    Console.WriteLine("2 - Multiply by last Integer");
+                    Console.WriteLine("3 - Factorial");
+                    Console.WriteLine("4 - Divisors");
+                    Console.WriteLine("5 - Fibonacci");
+                    Console.WriteLine("6 - First Formula");
+                    Console.WriteLine("7 - Second Formula");
+                    Console.WriteLine("8 - Third Formula");
+                    Console.WriteLine("9 - Forth Formula");
+                    Console.Write("Choose an operation: ");
+                    int index = Int32.Parse(Console.ReadLine());
 
 
                     if (index == 1)
                     {
-                        Console.WriteLine($"Random number is {index} - Is Integer");
+
                         Console.WriteLine(calculo.IsInt(number));
                     }
                     if (index == 2)
                     {
-                        Console.WriteLine($"Random number is {index} - Multiply per Last Integer");
                         Console.WriteLine(calculo.MultiplyLastInteger((int)number));
 
                     }
                     if (index == 3)
                     {
-                        Console.WriteLine($"Random number is {index} - Factorial");
                         Console.WriteLine($"The factorial of {(int)number} is {calculo.Factorial((int)number)}");
                     }
                     if (index == 4)
                     {
-                        Console.WriteLine($"Random number is {index} - How much integer divisors the number has, and who they are");
                         var divisors = new List<int>();
                         divisors = calculo.Divisors((int)number);
                         Console.WriteLine($"The number {(int)number} has {divisors.Count} divisors " +
@@ -54,7 +60,6 @@ namespace Exercise_3
                     }
                     if (index == 5)
                     {
-                        Console.WriteLine($"Random number is {index} - Fibonacci sequence");
                         var fibo = new List<int>();
                         fibo = calculo.Fibo((int)number);
                         Console.WriteLine($"The Fibonacci series with {(int)number} elements is:");
@@ -66,28 +71,24 @@ namespace Exercise_3
                     }
                     if (index == 6)
                     {
-                        Console.WriteLine($"Random number is {index} - First Formula");
                         Console.WriteLine($"The result of the first formula is: {calculo.FirstFormula((int)number)}");
                     }
                     if (index == 7)
                     {
-                        Console.WriteLine($"Random number is {index} - Second Formula");
                         Console.WriteLine($"The result of the second formula is: {calculo.SecondFormula((int)number)}");
                     }
                     if (index == 8)
                     {
-                        Console.WriteLine($"Random number is {index} - Third Formula");
                         Console.WriteLine($"The result of the third formula is: {calculo.ThirdFormula((int)number)}");
                     }
                     if (index == 9)
                     {
-                        Console.WriteLine($"Random number is {index} - Forth Formula");
                         Console.WriteLine($"The result of the forth formula is: {calculo.ForthFormula((int)number)}");
                     }
                 }
                 else
                 {
-                    Console.WriteLine("It is not an integer or it is not positiv");
+                    Console.WriteLine("It is not an integer");
                 }
                 string anotherNumber;
                 while (true)
@@ -115,4 +116,3 @@ namespace Exercise_3
         }
     }
 }
-
