@@ -1,0 +1,5 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Tests\Math.Tests\obj\Debug\net6.0\Math.Test.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Tests\Math.Tests\obj\Debug\net6.0\Math.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Tests\Math.Tests\obj\Debug\net6.0\Math.Test.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Tests\Math.Tests\obj\Debug\net6.0\Math.Test.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Tests\Math.Tests\obj\Debug\net6.0\Math.Test.csproj.CoreCompileInputs.cache

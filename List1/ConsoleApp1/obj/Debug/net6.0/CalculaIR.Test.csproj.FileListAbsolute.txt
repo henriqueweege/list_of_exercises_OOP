@@ -1,0 +1,5 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ConsoleApp1\obj\Debug\net6.0\CalculaIR.Test.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ConsoleApp1\obj\Debug\net6.0\CalculaIR.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ConsoleApp1\obj\Debug\net6.0\CalculaIR.Test.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ConsoleApp1\obj\Debug\net6.0\CalculaIR.Test.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ConsoleApp1\obj\Debug\net6.0\CalculaIR.Test.csproj.CoreCompileInputs.cache

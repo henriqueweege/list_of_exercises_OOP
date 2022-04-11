@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Exercise2/1.0.0": {
+        "dependencies": {
+          "Calculations": "1.0.0"
+        },
         "runtime": {
           "Exercise2.dll": {}
+        }
+      },
+      "Calculations/1.0.0": {
+        "runtime": {
+          "Calculations.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Exercise2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Calculations/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

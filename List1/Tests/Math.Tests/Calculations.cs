@@ -33,7 +33,7 @@ namespace Math.Tests
             //arrange
             int firstParameter = 1;
             int secondParameter = 0;
-            var calculosIntegerPositiv = new CalculosIntegerPositiv();
+            var calculosIntegerPositiv = new Calculations();
 
             //act
             var exception = Assert.Throws<DivideByZeroException>(() =>

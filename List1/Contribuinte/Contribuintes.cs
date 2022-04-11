@@ -1,6 +1,6 @@
 ﻿namespace Library
 {
-    public class Contribuinte
+    public class Contribuintes
     {
 
         public string nome { get; set; }

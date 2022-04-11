@@ -1,0 +1,15 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\bin\Debug\net6.0\Contribuinte.deps.json
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\bin\Debug\net6.0\Contribuinte.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\bin\Debug\net6.0\Contribuinte.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\bin\Debug\net6.0\CalculaIR.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\bin\Debug\net6.0\CalculaIR.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\obj\Debug\net6.0\Contribuinte.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\obj\Debug\net6.0\Contribuinte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\obj\Debug\net6.0\Contribuinte.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\obj\Debug\net6.0\Contribuinte.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\obj\Debug\net6.0\Contribuinte.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\obj\Debug\net6.0\Contribuinte.csproj.CopyComplete
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\obj\Debug\net6.0\Contribuinte.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\obj\Debug\net6.0\refint\Contribuinte.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\obj\Debug\net6.0\Contribuinte.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Contribuinte\obj\Debug\net6.0\ref\Contribuinte.dll

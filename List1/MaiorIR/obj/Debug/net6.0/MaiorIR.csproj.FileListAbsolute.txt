@@ -1,0 +1,17 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\bin\Debug\net6.0\MaiorIR.deps.json
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\bin\Debug\net6.0\MaiorIR.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\bin\Debug\net6.0\MaiorIR.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\bin\Debug\net6.0\CalculaIR.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\bin\Debug\net6.0\Contribuinte.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\bin\Debug\net6.0\CalculaIR.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\bin\Debug\net6.0\Contribuinte.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\obj\Debug\net6.0\MaiorIR.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\obj\Debug\net6.0\MaiorIR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\obj\Debug\net6.0\MaiorIR.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\obj\Debug\net6.0\MaiorIR.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\obj\Debug\net6.0\MaiorIR.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\obj\Debug\net6.0\MaiorIR.csproj.CopyComplete
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\obj\Debug\net6.0\MaiorIR.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\obj\Debug\net6.0\refint\MaiorIR.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\obj\Debug\net6.0\MaiorIR.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\MaiorIR\obj\Debug\net6.0\ref\MaiorIR.dll

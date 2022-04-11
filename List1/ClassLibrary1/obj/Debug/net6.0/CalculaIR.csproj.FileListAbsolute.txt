@@ -1,0 +1,12 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\bin\Debug\net6.0\CalculaIR.deps.json
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\bin\Debug\net6.0\CalculaIR.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\bin\Debug\net6.0\CalculaIR.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculaIR.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculaIR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculaIR.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculaIR.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculaIR.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculaIR.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\refint\CalculaIR.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculaIR.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\ref\CalculaIR.dll

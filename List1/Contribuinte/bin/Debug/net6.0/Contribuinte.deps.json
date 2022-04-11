@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Contribuinte/1.0.0": {
+        "dependencies": {
+          "CalculaIR": "1.0.0"
+        },
+        "runtime": {
+          "Contribuinte.dll": {}
+        }
+      },
+      "CalculaIR/1.0.0": {
+        "runtime": {
+          "CalculaIR.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contribuinte/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculaIR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

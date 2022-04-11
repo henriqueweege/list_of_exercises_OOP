@@ -1,6 +1,6 @@
 ﻿namespace Library
 {
-    public  class CalculaIR
+    public  class CalcularIR
     {
         public  double CalcularIR(double Salario)
         {

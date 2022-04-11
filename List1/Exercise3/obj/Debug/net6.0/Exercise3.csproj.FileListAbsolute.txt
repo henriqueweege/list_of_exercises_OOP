@@ -1,0 +1,5 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise3\obj\Debug\net6.0\Exercise3.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise3\obj\Debug\net6.0\Exercise3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise3\obj\Debug\net6.0\Exercise3.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise3\obj\Debug\net6.0\Exercise3.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise3\obj\Debug\net6.0\Exercise3.csproj.CoreCompileInputs.cache

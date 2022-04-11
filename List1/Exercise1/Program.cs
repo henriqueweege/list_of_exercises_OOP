@@ -35,7 +35,7 @@ internal class Program
         for (int i = 0; i < Nome.Count; i++)
         {
             contribuinte.Add(new Contribuinte { nome = Nome[i], cpf = Cpf[i], uf = Uf[i], salario = Salario[i] });
-            contribuinte[i].ir = CalculaIR.CalcularIR(contribuinte[i].salario);
+            contribuinte[i].ir = CalcularIR.CalcularIR(contribuinte[i].salario);
             MaiorIR.CalculaMaiorIR(contribuinte[i].nome, contribuinte[i].ir);
         }
 

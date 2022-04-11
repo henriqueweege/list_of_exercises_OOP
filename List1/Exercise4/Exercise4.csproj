@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Math\Calculations.csproj" />
+  </ItemGroup>
+
 </Project>
