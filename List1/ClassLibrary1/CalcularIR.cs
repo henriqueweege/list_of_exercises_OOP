@@ -2,7 +2,7 @@
 {
     public  class CalcularIR
     {
-        public  double CalcularIR(double Salario)
+        public  double CalculaIR(double Salario)
         {
             if (Salario > 0 && Salario < 4001)
             {

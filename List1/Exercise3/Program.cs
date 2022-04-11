@@ -20,12 +20,12 @@ internal class Program
                 if (index == 1)
                 {
                     Console.WriteLine($"Random number is {index} - Is Integer");
-                    Console.WriteLine(calculo.IsInt(number));
+                    Console.WriteLine(calculo.IsInteger(number));
                 }
                 if (index == 2)
                 {
                     Console.WriteLine($"Random number is {index} - Multiply per Last Integer");
-                    Console.WriteLine(calculo.MultiplyLastInteger((int)number));
+                    Console.WriteLine(calculo.MultiplyLastInput((int)number));
 
                 }
                 if (index == 3)

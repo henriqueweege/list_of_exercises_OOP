@@ -32,7 +32,7 @@ internal class Program
                 }
                 if (index == 2)
                 {
-                    Console.WriteLine(calculo.MultiplyLastInteger((int)number));
+                    Console.WriteLine(calculo.MultiplyLastInput((int)number));
 
                 }
                 if (index == 3)

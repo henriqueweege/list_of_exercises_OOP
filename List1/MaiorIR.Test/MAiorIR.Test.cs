@@ -49,7 +49,7 @@ namespace MaiorIR.Test
         public void ShouldReturnNewIR()
         {
             //arrange
-            var nome = "Henrique"
+            var nome = "Henrique";
             var ir = 5000;
 
             //act

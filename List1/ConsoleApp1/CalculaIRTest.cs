@@ -11,10 +11,10 @@ namespace CalcularIR.Test
         {
             //arrange
             int salario = 1;
-            var calculaIR = new CalculaIR();
+            var calculaIR = new Library.CalcularIR();
 
             //act
-            var resultado = calculaIR.CalcularIR(salario);
+            var resultado = calculaIR.CalculaIR(salario);
 
 
             //assert
@@ -26,9 +26,9 @@ namespace CalcularIR.Test
         {
             //arrange
             int salario = 4001;
-            var calculaIR = new CalculaIR();
+            var calculaIR = new Library.CalcularIR();
             //act
-            var resultado = calculaIR.CalcularIR(salario);
+            var resultado = calculaIR.CalculaIR(salario);
             //assert
             Assert.Equal(232.05, resultado);
         }
@@ -37,9 +37,9 @@ namespace CalcularIR.Test
         public void ShouldReturn1315()
         {
             int salario = 9001;
-            var calculaIR = new CalculaIR();
+            var calculaIR = new Library.CalcularIR();
             //act
-            var resultado = calculaIR.CalcularIR(salario);
+            var resultado = calculaIR.CalculaIR(salario);
             //assert
             Assert.Equal(1350.15, resultado);
         }
@@ -48,9 +48,9 @@ namespace CalcularIR.Test
         public void ShouldReturn6875()
         {
             int salario = 25001;
-            var calculaIR = new CalculaIR();
+            var calculaIR = new Library.CalcularIR();
             //act
-            var resultado = calculaIR.CalcularIR(salario);
+            var resultado = calculaIR.CalculaIR(salario);
             //assert
             Assert.Equal(6875.27, resultado);
         }
@@ -59,9 +59,9 @@ namespace CalcularIR.Test
         public void ShouldReturn10500()
         {
             int salario = 35001;
-            var calculaIR = new CalculaIR();
+            var calculaIR = new Library.CalcularIR();
             //act
-            var resultado = calculaIR.CalcularIR(salario);
+            var resultado = calculaIR.CalculaIR(salario);
             //assert
             Assert.Equal(10500.30, resultado);
         }

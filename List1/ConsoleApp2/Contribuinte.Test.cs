@@ -48,7 +48,7 @@ namespace Contribuinte.Tests
             var resultado = contribuinte.uf;
 
             //assert
-            Assert.Equal("SC", resultado)
+            Assert.Equal("SC", resultado);
         }
 
         [Fact]
@@ -76,7 +76,7 @@ namespace Contribuinte.Tests
             var resultado = contribuinte.ir;
 
             //assert
-            Assert.Equal(0, resultado)
+            Assert.Equal(0, resultado);
         }
     }
 }

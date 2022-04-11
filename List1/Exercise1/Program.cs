@@ -6,7 +6,7 @@ internal class Program
 
     {
 
-        List<Contribuinte> contribuinte = new List<Contribuinte>();
+        List<Contribuintes> contribuinte = new List<Contribuintes>();
         List<string> Nome = new List<string>();
         List<string> Cpf = new List<string>();
         List<string> Uf = new List<string>();
@@ -34,8 +34,8 @@ internal class Program
         }
         for (int i = 0; i < Nome.Count; i++)
         {
-            contribuinte.Add(new Contribuinte { nome = Nome[i], cpf = Cpf[i], uf = Uf[i], salario = Salario[i] });
-            contribuinte[i].ir = CalcularIR.CalcularIR(contribuinte[i].salario);
+            contribuinte.Add(new Contribuintes { nome = Nome[i], cpf = Cpf[i], uf = Uf[i], salario = Salario[i] });
+            contribuinte[i].ir = CalcularIR.CalculaIR(contribuinte[i].salario);
             MaiorIR.CalculaMaiorIR(contribuinte[i].nome, contribuinte[i].ir);
         }
 

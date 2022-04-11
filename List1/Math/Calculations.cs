@@ -8,7 +8,7 @@ namespace Library
 {
     public class Calculations
     {
-        public int lastInteger = 0;
+        public int lastInput = 0;
 
 
         public string IsInteger(double num)
@@ -16,30 +16,30 @@ namespace Library
 
             if (num == (int)num)
             {
-                lastInteger = (int)num;
+                lastInput = (int)num;
                 return $"The number {(int)num} is an integer";
             }
-            lastInteger = (int)num;
+            lastInput = (int)num;
             return $"The number {num} is not an integer";
         }
-        public int MultiplyLastInteger(int num)
+        public int MultiplyLastInput(int num)
         {
-
-            int result = num * lastInteger;
-            lastInteger = num;
+    
+            int result = num * lastInput;
+            lastInput = num;
             return result;
         }
 
-        public int Factorial(int num)
+        public long Factorial(int num)
         {
-            int fat = num;
+            long fat = num;
             int increment = 1;
             for (int i = num; i > 1; i--)
             {
                 fat *= num - increment;
                 increment++;
             }
-            lastInteger = num;
+            lastInput = num;
             return fat;
         }
         public List<int> Divisors(int num)
@@ -52,7 +52,7 @@ namespace Library
                     listDivisors.Add(i);
                 }
             }
-            lastInteger = num;
+            lastInput = num;
             return listDivisors;
         }
         public List<int> Fibo(int num)
@@ -73,56 +73,56 @@ namespace Library
 
                 }
             }
-            lastInteger = num;
+            lastInput = num;
             return listFibo;
         }
-        public int FirstFormula(int num)
+        public double FirstFormula(int num)
         {
-            int result = 1;
+            double result = 1;
             for (int i = 2; i <= num; i++)
             {
-                result += 1 / i;
+                result += 1 / (double)i;
             }
-            lastInteger = num;
-            return result;
+            lastInput = num;
+            return Math.Round(result, 2);
         }
-        public int SecondFormula(int num)
+        public double SecondFormula(int num)
         {
-            int result = 0;
+            double result = 0;
             int increment = 1;
             for (int i = num; i > 0; i--)
             {
-                result += increment / i;
+                result += increment / (double)i;
                 increment++;
             }
-            lastInteger = num;
+            lastInput = num;
             return result;
         }
-        public int ThirdFormula(int num)
+        public long ThirdFormula(int num)
         {
-            int result = 0;
+            long result = 0;
             int increment = 1;
-            for (int i = 20; i > 0; i--)
+            for (int i = 20; i > 1; i--)
             {
                 result += (num ^ i) / increment;
                 increment++;
             }
-            lastInteger = num;
+            lastInput = num;
             return result;
         }
-        public int ForthFormula(int num)
+        public long ForthFormula(int num)
         {
-            float result = 0;
-            int numerator = 1;
+            long result = 0;
+            long numerator = 1;
             int denominator = 2;
             for (int i = num; i > 0; i--)
             {
-                result += ((float)numerator / (float)Factorial(denominator)) - ((float)numerator++ / (float)Factorial(denominator * 2));
+                result += (numerator / Factorial(denominator)) - (numerator++ / Factorial(denominator * 2));
                 numerator += 2;
                 denominator += (denominator * 2) + 2;
             }
-            lastInteger = num;
-            return (int)result;
+            lastInput = num;
+            return result;
 
         }
 

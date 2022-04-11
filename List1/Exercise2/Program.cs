@@ -25,8 +25,8 @@ public class Program
             Console.WriteLine(calculo.IsInteger(number));
 
 
-            Console.WriteLine($"The result of the multiplication of {number}  and {calculo.lastInteger} is " +
-                $"{calculo.MultiplyLastInteger((int)number)}");
+            Console.WriteLine($"The result of the multiplication of {number}  and {calculo.lastInput} is " +
+                $"{calculo.MultiplyLastInput((int)number)}");
 
 
             Console.WriteLine($"The factorial of {(int)number} is {calculo.Factorial((int)number)}");
