@@ -1,0 +1,12 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\bin\Debug\net6.0\StringManipulator.deps.json
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\bin\Debug\net6.0\StringManipulator.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\bin\Debug\net6.0\StringManipulator.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\obj\Debug\net6.0\StringManipulator.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\obj\Debug\net6.0\StringManipulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\obj\Debug\net6.0\StringManipulator.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\obj\Debug\net6.0\StringManipulator.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\obj\Debug\net6.0\StringManipulator.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\obj\Debug\net6.0\StringManipulator.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\obj\Debug\net6.0\refint\StringManipulator.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\obj\Debug\net6.0\StringManipulator.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassExercise5\obj\Debug\net6.0\ref\StringManipulator.dll
