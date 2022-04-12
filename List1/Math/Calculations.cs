@@ -30,13 +30,13 @@ namespace Library
             return result;
         }
 
-        public long Factorial(int num)
+        public ulong Factorial(int num)
         {
-            long fat = num;
-            int increment = 1;
+            ulong fat = (ulong)num;
+            ulong increment = 1;
             for (int i = num; i > 1; i--)
             {
-                fat *= num - increment;
+                fat *= (ulong)num - increment;
                 increment++;
             }
             lastInput = num;
@@ -98,34 +98,38 @@ namespace Library
             lastInput = num;
             return result;
         }
-        public long ThirdFormula(int num)
+        public double ThirdFormula(int num)
         {
-            long result = 0;
+            double result = 0;
             int increment = 1;
             for (int i = 20; i > 1; i--)
             {
-                result += (num ^ i) / increment;
+                result += Math.Pow(num, i) / Factorial(increment);
                 increment++;
             }
             lastInput = num;
-            return result;
+            return Math.Round(result, 2);
         }
-        public long ForthFormula(int num)
+        public double ForthFormula(int num)
         {
-            long result = 0;
+            double result = 0;
             long numerator = 1;
             int denominator = 2;
             for (int i = num; i > 0; i--)
             {
-                var a = (numerator / Factorial(denominator));
-                var b = (numerator++ / Factorial(denominator * 2));
-                var x = a - b;
-                result += x; 
-                numerator += 2;
-                denominator += (denominator * 2) + 2;
+
+                result += (numerator / (double)Factorial(denominator));
+                if (i != 1)
+                {
+                    result -= (numerator++ / (double)Factorial(denominator + 2));
+                    i--;
+                }
+                  
+                numerator ++;
+                denominator +=  4;
             }
             lastInput = num;
-            return result;
+            return Math.Round(result, 2);
 
         }
 

@@ -61,12 +61,13 @@ namespace Math.Tests
             //arrange
             int num = 20;
             var validation = new Calculations();
+            ulong expect = 2432902008176640000;
 
             //act
             var result = validation.Factorial(num);
 
             //assert
-            Assert.Equal(2432902008176640000, result);
+            Assert.Equal(expect, result);
         }
 
         [Fact]
@@ -140,8 +141,8 @@ namespace Math.Tests
         public void ThirdFormulaShouldReturnSOMETHING()
         {
             //arrange
-            var num = 5;
-            var expect = 0;
+            var num = 1;
+            var expect = 1.72;
             var validation = new Calculations();
 
             //act
@@ -155,8 +156,8 @@ namespace Math.Tests
         public void ForthFormulaShouldResturn0_42()
         {
             //arrange 
-            var num = 1;
-            var expect = 0.41;
+            var num = 5;
+            var expect = 0.46;
             var validation = new Calculations();
 
             //act
