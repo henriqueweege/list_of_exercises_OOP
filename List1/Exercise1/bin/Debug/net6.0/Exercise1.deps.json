@@ -7,14 +7,56 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Exercise1/1.0.0": {
+        "dependencies": {
+          "BiggestIT": "1.0.0",
+          "CalculateIT": "1.0.0",
+          "Citizen": "1.0.0"
+        },
         "runtime": {
           "Exercise1.dll": {}
+        }
+      },
+      "BiggestIT/1.0.0": {
+        "dependencies": {
+          "CalculateIT": "1.0.0",
+          "Citizen": "1.0.0"
+        },
+        "runtime": {
+          "BiggestIT.dll": {}
+        }
+      },
+      "CalculateIT/1.0.0": {
+        "runtime": {
+          "CalculateIT.dll": {}
+        }
+      },
+      "Citizen/1.0.0": {
+        "dependencies": {
+          "CalculateIT": "1.0.0"
+        },
+        "runtime": {
+          "Citizen.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Exercise1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BiggestIT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculateIT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Citizen/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

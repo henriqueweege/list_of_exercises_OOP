@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BiggestIT/1.0.0": {
+        "dependencies": {
+          "CalculateIT": "1.0.0",
+          "Citizen": "1.0.0"
+        },
+        "runtime": {
+          "BiggestIT.dll": {}
+        }
+      },
+      "CalculateIT/1.0.0": {
+        "runtime": {
+          "CalculateIT.dll": {}
+        }
+      },
+      "Citizen/1.0.0": {
+        "dependencies": {
+          "CalculateIT": "1.0.0"
+        },
+        "runtime": {
+          "Citizen.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BiggestIT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculateIT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Citizen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

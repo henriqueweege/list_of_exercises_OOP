@@ -4,12 +4,12 @@
     "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ConsoleApp2\\Contribuinte.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculaIR.csproj": {
+    "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculateIT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculaIR.csproj",
-        "projectName": "CalculaIR",
-        "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculaIR.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculateIT.csproj",
+        "projectName": "CalculateIT",
+        "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculateIT.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Contribuinte.csproj": {
-                "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Contribuinte.csproj"
+              "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Citizen.csproj": {
+                "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Citizen.csproj"
               }
             }
           }
@@ -152,12 +152,12 @@
         }
       }
     },
-    "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Contribuinte.csproj": {
+    "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Citizen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Contribuinte.csproj",
-        "projectName": "Contribuinte",
-        "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Contribuinte.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Citizen.csproj",
+        "projectName": "Citizen",
+        "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Citizen.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\obj\\",
         "projectStyle": "PackageReference",
@@ -180,8 +180,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculaIR.csproj": {
-                "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculaIR.csproj"
+              "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculateIT.csproj": {
+                "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculateIT.csproj"
               }
             }
           }

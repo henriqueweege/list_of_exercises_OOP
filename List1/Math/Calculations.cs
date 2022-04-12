@@ -117,7 +117,10 @@ namespace Library
             int denominator = 2;
             for (int i = num; i > 0; i--)
             {
-                result += (numerator / Factorial(denominator)) - (numerator++ / Factorial(denominator * 2));
+                var a = (numerator / Factorial(denominator));
+                var b = (numerator++ / Factorial(denominator * 2));
+                var x = a - b;
+                result += x; 
                 numerator += 2;
                 denominator += (denominator * 2) + 2;
             }

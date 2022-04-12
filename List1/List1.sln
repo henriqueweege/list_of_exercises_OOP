@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations", "Math\Calcul
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{89F9F155-E291-40FA-858F-FC53532530C0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math.Test", "Tests\Math.Tests\Math.Test.csproj", "{701E8121-C5C0-4F0E-8324-BCC427D6D7E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations.Test", "Tests\Math.Tests\Calculations.Test.csproj", "{701E8121-C5C0-4F0E-8324-BCC427D6D7E8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise1", "Exercise1\Exercise1.csproj", "{A9CE9AEF-89E4-421A-8229-74564976508B}"
 EndProject
@@ -15,15 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise2", "Exercise2\Exer
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{064B0F8C-C527-4BF1-8D92-289110F7A26B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaiorIR", "MaiorIR\MaiorIR.csproj", "{F438F45F-E14D-4A0F-B91C-8D78BA133AD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiggestIT", "MaiorIR\BiggestIT.csproj", "{F438F45F-E14D-4A0F-B91C-8D78BA133AD4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculaIR", "ClassLibrary1\CalculaIR.csproj", "{486DA97E-F149-41E8-BDFD-6A46081DB51D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateIT", "ClassLibrary1\CalculateIT.csproj", "{486DA97E-F149-41E8-BDFD-6A46081DB51D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contribuinte", "Contribuinte\Contribuinte.csproj", "{32738C8B-4630-4015-B851-2F68FBE2FDF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Citizen", "Contribuinte\Citizen.csproj", "{32738C8B-4630-4015-B851-2F68FBE2FDF1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{75148700-4438-4495-A9C2-3344CB465E4E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculaIR.Test", "ConsoleApp1\CalculaIR.Test.csproj", "{20C6E84F-019E-461F-9EA1-A6825BDE5D45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateIT.Test", "ConsoleApp1\CalculateIT.Test.csproj", "{20C6E84F-019E-461F-9EA1-A6825BDE5D45}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classes Exercise 1", "Classes Exercise 1", "{6F4B349E-8B5B-4F31-939F-EBE0E0BB8FC2}"
 EndProject
@@ -33,9 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise3", "Exercise3\Exer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise4", "Exercise4\Exercise4.csproj", "{0DDF8FD8-EFBA-4EE1-AB02-526253AD6F85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contribuinte.Test", "ConsoleApp2\Contribuinte.Test.csproj", "{D85D7CFE-6B4D-4DBE-A158-1ABD7C6D1A97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Citizen.Test", "ConsoleApp2\Citizen.Test.csproj", "{D85D7CFE-6B4D-4DBE-A158-1ABD7C6D1A97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiorIR.Test", "MaiorIR.Test\MaiorIR.Test.csproj", "{66F05C02-4383-417A-B794-1E425F7C080E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiggestIT.Test", "MaiorIR.Test\BiggestIT.Test.csproj", "{66F05C02-4383-417A-B794-1E425F7C080E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,12 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\bin\Debug\net6.0\CalculateIT.deps.json
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\bin\Debug\net6.0\CalculateIT.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\bin\Debug\net6.0\CalculateIT.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculateIT.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculateIT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculateIT.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculateIT.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculateIT.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculateIT.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\refint\CalculateIT.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\CalculateIT.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ClassLibrary1\obj\Debug\net6.0\ref\CalculateIT.dll

@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "CalculaIR/1.0.0": {
+      "CalculateIT/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/CalculaIR.dll": {}
+          "bin/placeholder/CalculateIT.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CalculaIR.dll": {}
+          "bin/placeholder/CalculateIT.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "CalculaIR/1.0.0": {
+    "CalculateIT/1.0.0": {
       "type": "project",
-      "path": "../ClassLibrary1/CalculaIR.csproj",
-      "msbuildProject": "../ClassLibrary1/CalculaIR.csproj"
+      "path": "../ClassLibrary1/CalculateIT.csproj",
+      "msbuildProject": "../ClassLibrary1/CalculateIT.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "CalculaIR >= 1.0.0"
+      "CalculateIT >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Contribuinte.csproj",
-      "projectName": "Contribuinte",
-      "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Contribuinte.csproj",
+      "projectUniqueName": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Citizen.csproj",
+      "projectName": "Citizen",
+      "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\Citizen.csproj",
       "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Contribuinte\\obj\\",
       "projectStyle": "PackageReference",
@@ -58,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculaIR.csproj": {
-              "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculaIR.csproj"
+            "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculateIT.csproj": {
+              "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassLibrary1\\CalculateIT.csproj"
             }
           }
         }

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Citizen/1.0.0": {
+        "dependencies": {
+          "CalculateIT": "1.0.0"
+        },
+        "runtime": {
+          "Citizen.dll": {}
+        }
+      },
+      "CalculateIT/1.0.0": {
+        "runtime": {
+          "CalculateIT.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Citizen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculateIT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

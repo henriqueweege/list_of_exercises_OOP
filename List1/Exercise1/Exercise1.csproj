@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\CalculaIR.csproj" />
-    <ProjectReference Include="..\Contribuinte\Contribuinte.csproj" />
-    <ProjectReference Include="..\MaiorIR\MaiorIR.csproj" />
+    <ProjectReference Include="..\ClassLibrary1\CalculateIT.csproj" />
+    <ProjectReference Include="..\Contribuinte\Citizen.csproj" />
+    <ProjectReference Include="..\MaiorIR\BiggestIT.csproj" />
   </ItemGroup>
 
 </Project>

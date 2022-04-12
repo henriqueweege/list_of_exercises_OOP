@@ -13,3 +13,10 @@ C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise1\obj\Debug\net6.0\re
 C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise1\obj\Debug\net6.0\Exercise1.pdb
 C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise1\obj\Debug\net6.0\Exercise1.genruntimeconfig.cache
 C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise1\obj\Debug\net6.0\ref\Exercise1.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise1\bin\Debug\net6.0\BiggestIT.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise1\bin\Debug\net6.0\CalculateIT.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise1\bin\Debug\net6.0\Citizen.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise1\bin\Debug\net6.0\CalculateIT.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise1\bin\Debug\net6.0\Citizen.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise1\bin\Debug\net6.0\BiggestIT.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\Exercise1\obj\Debug\net6.0\Exercise1.csproj.CopyComplete
