@@ -4,12 +4,12 @@
     "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\Exercise5\\Exercise5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassExercise5\\StringManipulator.csproj": {
+    "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassExercise5\\StringScissor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassExercise5\\StringManipulator.csproj",
-        "projectName": "StringManipulator",
-        "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassExercise5\\StringManipulator.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassExercise5\\StringScissor.csproj",
+        "projectName": "StringScissor",
+        "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassExercise5\\StringScissor.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassExercise5\\obj\\",
         "projectStyle": "PackageReference",
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassExercise5\\StringManipulator.csproj": {
-                "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassExercise5\\StringManipulator.csproj"
+              "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassExercise5\\StringScissor.csproj": {
+                "projectPath": "C:\\Users\\henri\\Desktop\\list_of_exercises_OOP\\List1\\ClassExercise5\\StringScissor.csproj"
               }
             }
           }

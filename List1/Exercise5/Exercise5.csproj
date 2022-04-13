@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassExercise5\StringManipulator.csproj" />
+    <ProjectReference Include="..\ClassExercise5\StringScissor.csproj" />
   </ItemGroup>
 
 </Project>
