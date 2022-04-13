@@ -43,15 +43,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringScissor", "ClassExerc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Exercise 5", "Class Exercise 5", "{6DF07FC6-0204-4CF4-A45C-E05CE47C292F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulator.Test", "StringManipulator.Test\StringManipulator.Test.csproj", "{ECEB00AD-9AD3-467B-9F5D-8A53A44CFBB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulator.Test", "StringManipulator.Test\StringManipulator.Test.csproj", "{ECEB00AD-9AD3-467B-9F5D-8A53A44CFBB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise6", "Exercise6\Exercise6.csproj", "{1FF16052-0725-4AFD-A0DB-2D11CA98105F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise6", "Exercise6\Exercise6.csproj", "{1FF16052-0725-4AFD-A0DB-2D11CA98105F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Exercise 6", "Class Exercise 6", "{5D2A5CA9-965A-457C-9F56-ABCA757BF478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithimeticExpresisonsVerifications", "ArithimeticExpresisonsVerifications\ArithimeticExpresisonsVerifications.csproj", "{315575F6-86A0-4143-B20F-9BFD1E566B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArithimeticExpresisonsVerifications", "ArithimeticExpresisonsVerifications\ArithimeticExpresisonsVerifications.csproj", "{315575F6-86A0-4143-B20F-9BFD1E566B5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithimeticExpresisonsVerifications.Test", "ArithimeticExpresisonsVerifications.Test\ArithimeticExpresisonsVerifications.Test.csproj", "{D769100F-6912-443D-A6FE-3BACBAD6A7EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArithimeticExpresisonsVerifications.Test", "ArithimeticExpresisonsVerifications.Test\ArithimeticExpresisonsVerifications.Test.csproj", "{D769100F-6912-443D-A6FE-3BACBAD6A7EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise7", "Exercise7\Exercise7.csproj", "{4F11B44D-80BD-4999-80ED-4F81E3DD3890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyVampireNumber", "VerifyVampireNumber\VerifyVampireNumber.csproj", "{379C8A3B-13DE-44AC-9738-8F1E8825CBE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Exercise 7", "Class Exercise 7", "{E7B358CA-C7D3-4D80-91B7-ADC40FC7010B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampireNumberVerifyer.Test", "VampireNumberVerifyer.Test\VampireNumberVerifyer.Test.csproj", "{705A5AD8-A35A-4D7E-B18C-AA339A76285D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +139,18 @@ Global
 		{D769100F-6912-443D-A6FE-3BACBAD6A7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D769100F-6912-443D-A6FE-3BACBAD6A7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D769100F-6912-443D-A6FE-3BACBAD6A7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F11B44D-80BD-4999-80ED-4F81E3DD3890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F11B44D-80BD-4999-80ED-4F81E3DD3890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F11B44D-80BD-4999-80ED-4F81E3DD3890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F11B44D-80BD-4999-80ED-4F81E3DD3890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379C8A3B-13DE-44AC-9738-8F1E8825CBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379C8A3B-13DE-44AC-9738-8F1E8825CBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379C8A3B-13DE-44AC-9738-8F1E8825CBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379C8A3B-13DE-44AC-9738-8F1E8825CBE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705A5AD8-A35A-4D7E-B18C-AA339A76285D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705A5AD8-A35A-4D7E-B18C-AA339A76285D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705A5AD8-A35A-4D7E-B18C-AA339A76285D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705A5AD8-A35A-4D7E-B18C-AA339A76285D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,6 +178,10 @@ Global
 		{5D2A5CA9-965A-457C-9F56-ABCA757BF478} = {064B0F8C-C527-4BF1-8D92-289110F7A26B}
 		{315575F6-86A0-4143-B20F-9BFD1E566B5B} = {5D2A5CA9-965A-457C-9F56-ABCA757BF478}
 		{D769100F-6912-443D-A6FE-3BACBAD6A7EF} = {89F9F155-E291-40FA-858F-FC53532530C0}
+		{4F11B44D-80BD-4999-80ED-4F81E3DD3890} = {75148700-4438-4495-A9C2-3344CB465E4E}
+		{379C8A3B-13DE-44AC-9738-8F1E8825CBE5} = {E7B358CA-C7D3-4D80-91B7-ADC40FC7010B}
+		{E7B358CA-C7D3-4D80-91B7-ADC40FC7010B} = {064B0F8C-C527-4BF1-8D92-289110F7A26B}
+		{705A5AD8-A35A-4D7E-B18C-AA339A76285D} = {89F9F155-E291-40FA-858F-FC53532530C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15D16BFD-F603-4B3C-AACD-0AB3F6D5AD7A}

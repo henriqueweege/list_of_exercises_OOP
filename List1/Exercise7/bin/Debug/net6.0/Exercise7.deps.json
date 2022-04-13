@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Exercise7/1.0.0": {
+        "dependencies": {
+          "VerifyVampireNumber": "1.0.0"
+        },
+        "runtime": {
+          "Exercise7.dll": {}
+        }
+      },
+      "VerifyVampireNumber/1.0.0": {
+        "runtime": {
+          "VerifyVampireNumber.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercise7/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VerifyVampireNumber/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
