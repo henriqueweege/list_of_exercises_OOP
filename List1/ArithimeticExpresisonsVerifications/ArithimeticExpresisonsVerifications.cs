@@ -44,12 +44,24 @@
 
         public string PositionAndTypeOfFirstOperator(string EXPRESSION)
         {
-            var positionOfOperator = new List<int>(){
-                EXPRESSION.IndexOf("+"),
-                EXPRESSION.IndexOf("-"),
-                EXPRESSION.IndexOf("*"),
-                EXPRESSION.IndexOf("/")
-                };
+            var positionOfOperator = new List<int>();
+            if(EXPRESSION.IndexOf("+") != -1)
+            {
+                positionOfOperator.Add(EXPRESSION.IndexOf("+"));
+            }
+            if(EXPRESSION.IndexOf("-") != -1)
+            {
+                positionOfOperator.Add(EXPRESSION.IndexOf("-"));
+            }
+            if(EXPRESSION.IndexOf("*") != -1)
+            {
+                positionOfOperator.Add(EXPRESSION.IndexOf("*"));
+            }
+            if(EXPRESSION.IndexOf("/") != -1)
+            {
+                positionOfOperator.Add(EXPRESSION.IndexOf("/"));
+            }
+
             positionOfOperator.Sort();
             return $"The first operator is {EXPRESSION[positionOfOperator[0]]}, and it is in the position {positionOfOperator[0]}";
 

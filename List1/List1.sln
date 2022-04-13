@@ -51,6 +51,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Exercise 6", "Class E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithimeticExpresisonsVerifications", "ArithimeticExpresisonsVerifications\ArithimeticExpresisonsVerifications.csproj", "{315575F6-86A0-4143-B20F-9BFD1E566B5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithimeticExpresisonsVerifications.Test", "ArithimeticExpresisonsVerifications.Test\ArithimeticExpresisonsVerifications.Test.csproj", "{D769100F-6912-443D-A6FE-3BACBAD6A7EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{315575F6-86A0-4143-B20F-9BFD1E566B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{315575F6-86A0-4143-B20F-9BFD1E566B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{315575F6-86A0-4143-B20F-9BFD1E566B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D769100F-6912-443D-A6FE-3BACBAD6A7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D769100F-6912-443D-A6FE-3BACBAD6A7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D769100F-6912-443D-A6FE-3BACBAD6A7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D769100F-6912-443D-A6FE-3BACBAD6A7EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -151,6 +157,7 @@ Global
 		{1FF16052-0725-4AFD-A0DB-2D11CA98105F} = {75148700-4438-4495-A9C2-3344CB465E4E}
 		{5D2A5CA9-965A-457C-9F56-ABCA757BF478} = {064B0F8C-C527-4BF1-8D92-289110F7A26B}
 		{315575F6-86A0-4143-B20F-9BFD1E566B5B} = {5D2A5CA9-965A-457C-9F56-ABCA757BF478}
+		{D769100F-6912-443D-A6FE-3BACBAD6A7EF} = {89F9F155-E291-40FA-858F-FC53532530C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15D16BFD-F603-4B3C-AACD-0AB3F6D5AD7A}
