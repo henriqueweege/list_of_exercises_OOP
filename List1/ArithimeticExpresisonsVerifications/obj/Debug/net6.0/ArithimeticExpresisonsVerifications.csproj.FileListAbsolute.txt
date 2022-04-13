@@ -1,0 +1,12 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\bin\Debug\net6.0\ArithimeticExpresisonsVerifications.deps.json
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\bin\Debug\net6.0\ArithimeticExpresisonsVerifications.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\bin\Debug\net6.0\ArithimeticExpresisonsVerifications.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\obj\Debug\net6.0\ArithimeticExpresisonsVerifications.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\obj\Debug\net6.0\ArithimeticExpresisonsVerifications.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\obj\Debug\net6.0\ArithimeticExpresisonsVerifications.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\obj\Debug\net6.0\ArithimeticExpresisonsVerifications.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\obj\Debug\net6.0\ArithimeticExpresisonsVerifications.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\obj\Debug\net6.0\ArithimeticExpresisonsVerifications.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\obj\Debug\net6.0\refint\ArithimeticExpresisonsVerifications.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\obj\Debug\net6.0\ArithimeticExpresisonsVerifications.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ArithimeticExpresisonsVerifications\obj\Debug\net6.0\ref\ArithimeticExpresisonsVerifications.dll
