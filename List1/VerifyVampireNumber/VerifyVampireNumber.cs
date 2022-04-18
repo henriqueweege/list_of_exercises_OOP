@@ -1,30 +1,35 @@
 ﻿namespace Library
 {
-    public class VampireNumberVerifyer
+    public class VampireNumberVerify
     {
+        //int controlRepetition = 0;
+        string vampireInput;
+        //List<int> allPossibleVampireTries = new List<int>();
+        //Random random = new Random();
+        //List<int> newPossibleVampire = new List<int>();
+        //int possibleVampireInt;
+
+        public VampireNumberVerify(string Input){
+
+            vampireInput = Input;
+        }
+
         public string VerifyVampireNumber(string NUMBER)
         {
-            var number = TransformNumberInList(NUMBER);
-            
-            if (IfNumberIsEven(number) == false)
+            var listVampireInput = TransformNumberInList(NUMBER);
+            var tentativa = SortList(listVampireInput);
+            if (IfNumberIsEven(listVampireInput))
             {
-                return "The quantity of numbers in a vampire number should be even.";
-            }
-            while (true)
-            {
-               
-            }
-            //fazer o count aqui, pra ver se não está repetindo as combinações
-            if ( multiply  == num )
-            {
-                return "It is a vampire number.";
+                if (tentativa.Count == 1)
+                {
+                    return "It is not a Vampire";
+                }
+                return $"Vampiro";
             }
             else
             {
-                return "It is not a vampire number.";
-            }
-
-
+                return "Number should be even.";
+            }        
         }
         public List<int> TransformNumberInList(string NUMBER)
         {
@@ -36,31 +41,23 @@
             }
             return number;
         }
-
-        public List<int> FormPars(List<int> NUMBER)
+        public int TransformListInNumber (List<int> LISTA)
         {
-            var count = 0;
-            var numberPars = new List<int>();
-            var pairs = "";
-            
-            while (count <= ((NUMBER.Count / 2) - 1))
+            var position = 0;
+            string number="";
+            while (position <= LISTA.Count-1)
             {
-              pairs += NUMBER[count];
-              count++;
+                number = number + LISTA[position].ToString();
+                position++;
             }
-            numberPars.Add(Int32.Parse(pairs));
-            while(count > 0)
-            {
-              pairs += NUMBER[count];
-              count++;
-            }
-            numberPars.Add(Int32.Parse(pairs));
-            return numberPars;
-
+           
+            var numberInt = Int32.Parse(number);
+            return numberInt;
         }
+
         public bool IfNumberIsEven(List<int> NUMBER)
         {
-            if(NUMBER.Count%2 == 0)
+            if (NUMBER.Count % 2 == 0)
             {
                 return true;
             }
@@ -69,60 +66,94 @@
                 return false;
             }
         }
-        public bool VampireNumberTry(List<int> PAIRS, string NUMBER)
+
+        public List<int> FormPairs(List<int> POSSIBLEVAMPIRE, List<int> Positions)
         {
-            var pairs = PAIRS;
+
+            var numberPairs = new List<int>();
+            var pairs = "";
+            pairs += POSSIBLEVAMPIRE[Positions[0]];
+            pairs += POSSIBLEVAMPIRE[Positions[1]];
+            numberPairs.Add(Int32.Parse(pairs));
+            pairs = "";
+            pairs += POSSIBLEVAMPIRE[Positions[2]];
+            pairs += POSSIBLEVAMPIRE[Positions[3]];
+            numberPairs.Add(Int32.Parse(pairs));
+
+            return numberPairs;
+
+        }
+
+        public bool VampireNumberTry(List<int> PAIRS)
+        {
+
             var firstPair = PAIRS[0];
             var secondPair = PAIRS[1];
-            var count = 0;
+
             while (true)
             {
-                if(firstPair == PAIRS[0] && secondPair == PAIRS[1] && count != 0)
-                {
-                    return false;
-                }
-                if(firstPair * secondPair == Int32.Parse(NUMBER))
+                if((firstPair * secondPair) == Int32.Parse(vampireInput))
                 {
                     return true;
                 }
-                else
-                {
-                    pairs = SortPairs(PAIRS);
-                    count++;
-                }
+                return false;
             }
             
         }
-        public List<int> SortPairs(List<int> PAIRS)
+        public List<string> SortList(List<int> POSSIBLEVAMPIRE)
         {
-            var newPairs = new List<int>();
-            var firstPair = PAIRS[0];
-            var secondPair = PAIRS[1];
-            var sortedPairs = new List<char>();
-            var count = PAIRS.Count /2 -1;
-            while(count >= 0)
+           List<string> positions = new List<string>();
+            var number = "";
+           if(POSSIBLEVAMPIRE.Count == 4)
             {
-                sortedPairs.Add(' ');
-                count--;
+                for(int i = 0; i < POSSIBLEVAMPIRE.Count; i++)
+                    for(int j = 0; j < POSSIBLEVAMPIRE.Count; j++)
+                        for(int k = 0; k < POSSIBLEVAMPIRE.Count; k++)
+                            for(int l = 0; l < POSSIBLEVAMPIRE.Count; l++)
+                            {
+                                if (i != j &&
+                                    i != k &&
+                                    i != l &&
+                                    j != k &&
+                                    j != l &&
+                                    k != l)
+                                {
+                                    number += i.ToString();
+                                    number += j.ToString();
+                                    number += k.ToString();
+                                    number += l.ToString();
+
+                                    positions.Add(number);
+
+                                    number = "";
+                                }
+
+                            }
+                
+
             }
-            count = PAIRS.Count / 2 - 1;
-            foreach (var num in firstPair.ToString())
-            {
-                sortedPairs[count]=num;
-                count--;
-            }
-            count = PAIRS.Count - 1;
-            foreach (var num in secondPair.ToString())
-            {
-                sortedPairs[count] = num;
-                count--;
-            }
-            foreach(var character in sortedPairs)
-            {
-                int convert = character - '0';
-                newPairs.Add(convert);
-            }
-            return newPairs;
+            return positions;
         }
+        //public List<int> SortList(List<int> POSSIBLEVAMPIRE)
+        //{
+            //var possibleVampire = POSSIBLEVAMPIRE.OrderBy(item => random.Next());
+            //newPossibleVampire.Clear();
+            //foreach(var item in possibleVampire)
+            //{
+                //newPossibleVampire.Add(item);
+            //}
+            //while(newPossibleVampire.Count < POSSIBLEVAMPIRE.Count())
+            //{
+                //newPossibleVampire.Add(0);
+            //}
+            //var newPossibleVampireNumber = TransformListInNumber(newPossibleVampire);
+            //if (allPossibleVampireTries.Contains(newPossibleVampireNumber) && controlRepetition <= 10){
+                //controlRepetition++;
+                //SortList(newPossibleVampire);
+            //}
+            //allPossibleVampireTries.Add(newPossibleVampireNumber);
+            //return newPossibleVampire;
+           
+        //}
     }
 }

@@ -2,11 +2,10 @@
 {
     public class StringScissor
     {
-        public List<string> TakeSpacesOff(string PHRASE)
+        public List<string> TakeSpacesOff(string phrase)
         {
 
             var words = new List<string>();
-            var phrase = PHRASE;
             var count = 0;
             while (phrase.Length > 1)
             {
