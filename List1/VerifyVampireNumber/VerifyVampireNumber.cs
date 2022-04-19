@@ -2,35 +2,13 @@
 {
     public class VampireNumberVerify
     {
-        //int controlRepetition = 0;
-        string vampireInput;
-        //List<int> allPossibleVampireTries = new List<int>();
-        //Random random = new Random();
-        //List<int> newPossibleVampire = new List<int>();
-        //int possibleVampireInt;
+         string vampireInput;
 
         public VampireNumberVerify(string Input){
 
             vampireInput = Input;
         }
 
-        public string VerifyVampireNumber(string NUMBER)
-        {
-            var listVampireInput = TransformNumberInList(NUMBER);
-            var tentativa = SortList(listVampireInput);
-            if (IfNumberIsEven(listVampireInput))
-            {
-                if (tentativa.Count == 1)
-                {
-                    return "It is not a Vampire";
-                }
-                return $"Vampiro";
-            }
-            else
-            {
-                return "Number should be even.";
-            }        
-        }
         public List<int> TransformNumberInList(string NUMBER)
         {
             var number = new List<int>();
@@ -40,19 +18,6 @@
                 number.Add(convert);
             }
             return number;
-        }
-        public int TransformListInNumber (List<int> LISTA)
-        {
-            var position = 0;
-            string number="";
-            while (position <= LISTA.Count-1)
-            {
-                number = number + LISTA[position].ToString();
-                position++;
-            }
-           
-            var numberInt = Int32.Parse(number);
-            return numberInt;
         }
 
         public bool IfNumberIsEven(List<int> NUMBER)
@@ -72,14 +37,33 @@
 
             var numberPairs = new List<int>();
             var pairs = "";
-            pairs += POSSIBLEVAMPIRE[Positions[0]];
-            pairs += POSSIBLEVAMPIRE[Positions[1]];
-            numberPairs.Add(Int32.Parse(pairs));
-            pairs = "";
-            pairs += POSSIBLEVAMPIRE[Positions[2]];
-            pairs += POSSIBLEVAMPIRE[Positions[3]];
-            numberPairs.Add(Int32.Parse(pairs));
-
+            var count = POSSIBLEVAMPIRE.Count;
+            var countHalf = POSSIBLEVAMPIRE.Count / 2;
+            var position = 0;
+            var countZeros = 0;
+            while(count > 0){
+                while (countHalf > 0)
+                {
+                    if(POSSIBLEVAMPIRE[Positions[position]] == 0 && countHalf == 1)
+                    {
+                        countZeros++;
+                    }
+                    pairs += POSSIBLEVAMPIRE[Positions[position]];
+                    count--;
+                    countHalf--;
+                    position++;
+                }
+                numberPairs.Add(Int32.Parse(pairs));
+                pairs = "";
+                countHalf = POSSIBLEVAMPIRE.Count / 2;
+            }
+            if(countZeros == 2)
+            {
+                numberPairs.Clear();
+                numberPairs.Add(00);
+                numberPairs.Add(00);
+                return numberPairs;
+            }
             return numberPairs;
 
         }
@@ -134,26 +118,5 @@
             }
             return positions;
         }
-        //public List<int> SortList(List<int> POSSIBLEVAMPIRE)
-        //{
-            //var possibleVampire = POSSIBLEVAMPIRE.OrderBy(item => random.Next());
-            //newPossibleVampire.Clear();
-            //foreach(var item in possibleVampire)
-            //{
-                //newPossibleVampire.Add(item);
-            //}
-            //while(newPossibleVampire.Count < POSSIBLEVAMPIRE.Count())
-            //{
-                //newPossibleVampire.Add(0);
-            //}
-            //var newPossibleVampireNumber = TransformListInNumber(newPossibleVampire);
-            //if (allPossibleVampireTries.Contains(newPossibleVampireNumber) && controlRepetition <= 10){
-                //controlRepetition++;
-                //SortList(newPossibleVampire);
-            //}
-            //allPossibleVampireTries.Add(newPossibleVampireNumber);
-            //return newPossibleVampire;
-           
-        //}
     }
 }
