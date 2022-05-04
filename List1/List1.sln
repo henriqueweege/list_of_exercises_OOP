@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateIT.Test", "ConsoleApp1\CalculateIT.Test.csproj", "{20C6E84F-019E-461F-9EA1-A6825BDE5D45}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classes Exercise 1", "Classes Exercise 1", "{6F4B349E-8B5B-4F31-939F-EBE0E0BB8FC2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Exercise 1", "Class Exercise 1", "{6F4B349E-8B5B-4F31-939F-EBE0E0BB8FC2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Exercise 2, 3 and 4", "Class Exercise 2, 3 and 4", "{6D50F093-7380-481C-94C2-2BD3C0D6067E}"
 EndProject
@@ -53,13 +53,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArithimeticExpresisonsVerif
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArithimeticExpresisonsVerifications.Test", "ArithimeticExpresisonsVerifications.Test\ArithimeticExpresisonsVerifications.Test.csproj", "{D769100F-6912-443D-A6FE-3BACBAD6A7EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise7", "Exercise7\Exercise7.csproj", "{4F11B44D-80BD-4999-80ED-4F81E3DD3890}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise7", "Exercise7\Exercise7.csproj", "{4F11B44D-80BD-4999-80ED-4F81E3DD3890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyVampireNumber", "VerifyVampireNumber\VerifyVampireNumber.csproj", "{379C8A3B-13DE-44AC-9738-8F1E8825CBE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerifyVampireNumber", "VerifyVampireNumber\VerifyVampireNumber.csproj", "{379C8A3B-13DE-44AC-9738-8F1E8825CBE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Exercise 7", "Class Exercise 7", "{E7B358CA-C7D3-4D80-91B7-ADC40FC7010B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampireNumberVerifyer.Test", "VampireNumberVerifyer.Test\VampireNumberVerifyer.Test.csproj", "{705A5AD8-A35A-4D7E-B18C-AA339A76285D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VampireNumberVerifyer.Test", "VampireNumberVerifyer.Test\VampireNumberVerifyer.Test.csproj", "{705A5AD8-A35A-4D7E-B18C-AA339A76285D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Exercise 8", "Class Exercise 8", "{F4BC6716-819E-4E64-8B6B-A78A50D25C1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectorOfRealsCalculatorClass", "VetorDeReais\VectorOfRealsCalculatorClass.csproj", "{D7B9906F-476C-4947-8111-4867A19A1510}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectorOfRealsCalculator.Test", "VectorOfRealsCalculator.Test\VectorOfRealsCalculator.Test.csproj", "{C5C31275-9BCE-4B61-846B-4CFDDE2A1E2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManipulationOfInputAndOutput", "ManipulationOfInput\ManipulationOfInputAndOutput.csproj", "{4E5E74F8-0745-466D-AC67-8C506172F2DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise8", "Exercise8Reparation\Exercise8.csproj", "{5C1FE36A-44CA-448D-8853-62139A9E048D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -151,6 +161,22 @@ Global
 		{705A5AD8-A35A-4D7E-B18C-AA339A76285D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{705A5AD8-A35A-4D7E-B18C-AA339A76285D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{705A5AD8-A35A-4D7E-B18C-AA339A76285D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B9906F-476C-4947-8111-4867A19A1510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B9906F-476C-4947-8111-4867A19A1510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B9906F-476C-4947-8111-4867A19A1510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B9906F-476C-4947-8111-4867A19A1510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C31275-9BCE-4B61-846B-4CFDDE2A1E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C31275-9BCE-4B61-846B-4CFDDE2A1E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C31275-9BCE-4B61-846B-4CFDDE2A1E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C31275-9BCE-4B61-846B-4CFDDE2A1E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5E74F8-0745-466D-AC67-8C506172F2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5E74F8-0745-466D-AC67-8C506172F2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5E74F8-0745-466D-AC67-8C506172F2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5E74F8-0745-466D-AC67-8C506172F2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1FE36A-44CA-448D-8853-62139A9E048D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1FE36A-44CA-448D-8853-62139A9E048D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1FE36A-44CA-448D-8853-62139A9E048D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1FE36A-44CA-448D-8853-62139A9E048D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +208,11 @@ Global
 		{379C8A3B-13DE-44AC-9738-8F1E8825CBE5} = {E7B358CA-C7D3-4D80-91B7-ADC40FC7010B}
 		{E7B358CA-C7D3-4D80-91B7-ADC40FC7010B} = {064B0F8C-C527-4BF1-8D92-289110F7A26B}
 		{705A5AD8-A35A-4D7E-B18C-AA339A76285D} = {89F9F155-E291-40FA-858F-FC53532530C0}
+		{F4BC6716-819E-4E64-8B6B-A78A50D25C1D} = {064B0F8C-C527-4BF1-8D92-289110F7A26B}
+		{D7B9906F-476C-4947-8111-4867A19A1510} = {F4BC6716-819E-4E64-8B6B-A78A50D25C1D}
+		{C5C31275-9BCE-4B61-846B-4CFDDE2A1E2D} = {89F9F155-E291-40FA-858F-FC53532530C0}
+		{4E5E74F8-0745-466D-AC67-8C506172F2DC} = {F4BC6716-819E-4E64-8B6B-A78A50D25C1D}
+		{5C1FE36A-44CA-448D-8853-62139A9E048D} = {75148700-4438-4495-A9C2-3344CB465E4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15D16BFD-F603-4B3C-AACD-0AB3F6D5AD7A}

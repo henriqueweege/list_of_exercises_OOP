@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Exercise8/1.0.0": {
+        "dependencies": {
+          "ManipulationOfInputAndOutput": "1.0.0",
+          "VectorOfRealsCalculatorClass": "1.0.0"
+        },
+        "runtime": {
+          "Exercise8.dll": {}
+        }
+      },
+      "ManipulationOfInputAndOutput/1.0.0": {
+        "runtime": {
+          "ManipulationOfInputAndOutput.dll": {}
+        }
+      },
+      "VectorOfRealsCalculatorClass/1.0.0": {
+        "runtime": {
+          "VectorOfRealsCalculatorClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercise8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManipulationOfInputAndOutput/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VectorOfRealsCalculatorClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

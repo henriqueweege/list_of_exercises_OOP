@@ -1,0 +1,12 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\bin\Debug\net6.0\ManipulationOfInput.deps.json
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\bin\Debug\net6.0\ManipulationOfInput.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\bin\Debug\net6.0\ManipulationOfInput.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInput.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInput.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInput.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInput.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInput.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInput.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\refint\ManipulationOfInput.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInput.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ref\ManipulationOfInput.dll

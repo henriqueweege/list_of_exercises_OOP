@@ -1,0 +1,12 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\bin\Debug\net6.0\VectorOfRealsCalculatorClass.deps.json
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\bin\Debug\net6.0\VectorOfRealsCalculatorClass.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\bin\Debug\net6.0\VectorOfRealsCalculatorClass.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\obj\Debug\net6.0\VectorOfRealsCalculatorClass.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\obj\Debug\net6.0\VectorOfRealsCalculatorClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\obj\Debug\net6.0\VectorOfRealsCalculatorClass.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\obj\Debug\net6.0\VectorOfRealsCalculatorClass.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\obj\Debug\net6.0\VectorOfRealsCalculatorClass.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\obj\Debug\net6.0\VectorOfRealsCalculatorClass.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\obj\Debug\net6.0\refint\VectorOfRealsCalculatorClass.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\obj\Debug\net6.0\VectorOfRealsCalculatorClass.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\VetorDeReais\obj\Debug\net6.0\ref\VectorOfRealsCalculatorClass.dll

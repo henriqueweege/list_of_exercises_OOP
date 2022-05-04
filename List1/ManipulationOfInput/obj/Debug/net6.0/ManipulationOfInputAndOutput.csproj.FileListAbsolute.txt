@@ -1,0 +1,12 @@
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\bin\Debug\net6.0\ManipulationOfInputAndOutput.deps.json
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\bin\Debug\net6.0\ManipulationOfInputAndOutput.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\bin\Debug\net6.0\ManipulationOfInputAndOutput.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInputAndOutput.csproj.AssemblyReference.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInputAndOutput.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInputAndOutput.AssemblyInfoInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInputAndOutput.AssemblyInfo.cs
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInputAndOutput.csproj.CoreCompileInputs.cache
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInputAndOutput.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\refint\ManipulationOfInputAndOutput.dll
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ManipulationOfInputAndOutput.pdb
+C:\Users\henri\Desktop\list_of_exercises_OOP\List1\ManipulationOfInput\obj\Debug\net6.0\ref\ManipulationOfInputAndOutput.dll
